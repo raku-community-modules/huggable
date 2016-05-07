@@ -12,6 +12,12 @@ Perl 6 IRC bot that lurks in irc.freenode.net/perl6
 
     perl6 bin/huggable.p6
 
+Due to my currently incomplete/buggy implementation of IRC::Client, the bot
+will often disconnet and not reconnect. That's why there's a
+RE-STARTER.p6 script to kill/restart the bot every 4 hours:
+
+    perl6 RE-STARTER.p6
+
 ----
 
 # KNOWN RUNNING INSTANCES
