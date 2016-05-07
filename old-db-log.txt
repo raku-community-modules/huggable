@@ -1,0 +1,22 @@
+huggable, Zoffix :is: awesome
+huggable, rakudobug :is: rakudobug@perl.org or use perl6 query on http://rt.perl.org ; see https://github.com/rakudo/rakudo/#reporting-bugs
+huggable, div by zero :is: {1/0}
+huggable, texas :is: All of Perl 6's fancy Unicode operators have traditional ASCII symbol alternatives (aka Texas Variants): See http://doc.perl6.org/language/unicode_texas
+huggable: @arr.flat :is: Array.flat is designed to flatten shaped arrays. See https://rt.perl.org/Public/Bug/Display.html?id=127121
+huggable: hyper problems :is: See https://rt.perl.org/Public/Bug/Display.html?id=127099 and https://rt.perl.org/Public/Bug/Display.html?id=127190
+huggable: ugly stacktraces :is: Indeed, stacktraces are less than awesome due to how precompilation works. This is a known issue. There is also a bug report: https://rt.perl.org/Public/Bug/Display.html?id=126908
+huggable, user experience :is: Identifying issues in and improving the Perl 6 user experience: https://github.com/perl6/user-experience
+huggable: return :is: sub A(--> Int) {}; sub B returns Int {}; sub C of Int {}; my Int sub D {}; say (&A, &B, &C, &D)».returns
+huggable: traps :is: https://doc.perl6.org/language/traps
+huggable: unzalgo :is: https://irclog.perlgeek.de/perl6/2015-11-12#i_11522549
+huggable: exitcode :is: https://rt.perl.org/Public/Bug/Display.html?id=125757
+huggable, unicode vars :is: Find fancy unicode chars that can be used as term names: m: (0 .. 0xFFFF).grep({.uniname ~~ /:i 'arrow'/ and .uniprop ~~ /^ L/})».chr.print
+huggable: new module :is: Fork ecosystem repo, add your module to META.list and send a pull request. See README here: https://github.com/perl6/ecosystem
+huggable: parse html :is: https://github.com/Skarsnik/perl6-gumbo
+huggable: no bikeshedding please :is: 🚳
+huggable: what do you do for a living? :is: I am a factoid bot on #perl6
+huggable: NIY :is: NYI
+huggable: huggable :is: See https://github.com/zoffixznet/huggable
+huggable: source :is: See https://github.com/zoffixznet/huggable
+huggable: paste :is: Please do not paste large pieces of code here. camelia supports https://gist.github.com/ , https://gitlab.com/snippets and https://bitbucket.org/snippets
+huggable, xy problem :is: You want to do X, but don't know how. You think you can solve it using Y, but don't know how to do that, either. So, you ask about Y in order to solve X, which doesn't make sense. You should ask about X.
