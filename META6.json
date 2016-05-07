@@ -1,0 +1,19 @@
+{
+    "perl"         : "6.c",
+    "name"         : "huggable",
+    "version"      : "1.001001",
+    "description"  : "source code for huggable IRC bot",
+    "depends"      : [
+        "IRC::Client",
+        "IRC::Client::Plugin::Debugger",
+        "IRC::Client::Plugin::Hug",
+        "IRC::Client::Plugin::Factoid",
+        "IRC::Client::Plugin"
+    ],
+    "test-depends" : [ ],
+    "provides"     : {
+        "IRC::Client::Plugin::Hug": "lib/IRC/Client/Plugin/Hug.pm6"
+    },
+    "authors"      : [ "Zoffix Znet" ],
+    "source-url"   : "git://github.com/zoffixznet/huggable.git"
+}
