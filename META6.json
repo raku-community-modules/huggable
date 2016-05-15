@@ -6,7 +6,6 @@
     "depends"      : [
         "IRC::Client",
         "IRC::Client::Plugin::Debugger",
-        "IRC::Client::Plugin::Hug",
         "IRC::Client::Plugin::Factoid",
         "IRC::Client::Plugin"
     ],
