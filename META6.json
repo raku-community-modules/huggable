@@ -4,6 +4,7 @@
     "version"      : "1.001001",
     "description"  : "source code for huggable IRC bot",
     "depends"      : [
+        "Acme::Insult::Lala",
         "IRC::Client",
         "IRC::Client::Plugin::Debugger",
         "IRC::Client::Plugin::Factoid",
