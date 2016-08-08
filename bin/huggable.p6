@@ -1,11 +1,15 @@
-use lib
-    '/home/zoffix/services/huggable/temp/perl6-IRC-Client/lib',
-    'lib';
+use lib <
+    /home/zoffix/CPANPRC/IRC-Client/lib
+    /home/zoffix/CPANPRC/IRC-Client-Plugin-Factoid/lib
+
+    /home/zoffix/services/lib/IRC-Client/lib
+    /home/zoffix/services/lib/IRC-Client-Plugin-Factoid/lib
+    lib
+>;
+
 
 use IRC::Client;
-use IRC::Client::Plugin::Debugger;
 use IRC::Client::Plugin::Hug;
-use IRC::Client::Plugin::Insult;
 use IRC::Client::Plugin::Factoid;
 
 IRC::Client.new(
