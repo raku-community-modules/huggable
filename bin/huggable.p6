@@ -16,6 +16,7 @@ IRC::Client.new(
     :host(%*ENV<HUGGABLE_DEBUG> ?? '127.0.0.1' !! 'chat.freenode.net')
     :channels<#perl6 #perl6-dev #zofbot>
     :nick<huggable>
+    :name<zofbot-huggable>
     :debug
     :plugins(
         IRC::Client::Plugin::Hug.new,
