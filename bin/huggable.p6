@@ -14,7 +14,7 @@ use IRC::Client::Plugin::Factoid;
 
 IRC::Client.new(
     :host(%*ENV<HUGGABLE_DEBUG> ?? '127.0.0.1' !! 'chat.freenode.net')
-    :channels<#perl6 #perl6-dev #zofbot>
+    :channels<#perl6 #perl6-dev #zofbot #moarvm>
     :nick<huggable>
     :username<zofbot-huggable>
     :debug
