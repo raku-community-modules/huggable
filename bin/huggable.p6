@@ -1,8 +1,6 @@
 use lib <
-    /home/zoffix/CPANPRC/IRC-Client/lib
     /home/zoffix/CPANPRC/IRC-Client-Plugin-Factoid/lib
 
-    /home/zoffix/services/lib/IRC-Client/lib
     /home/zoffix/services/lib/IRC-Client-Plugin-Factoid/lib
     lib
 >;
