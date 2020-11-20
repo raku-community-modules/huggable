@@ -12,5 +12,5 @@
         "IRC::Client::Plugin::Hug": "lib/IRC/Client/Plugin/Hug.pm6"
     },
     "authors"      : [ "Zoffix Znet" ],
-    "source-url"   : "git://github.com/zoffixznet/huggable.git"
+    "source-url"   : "git://github.com/raku-community-modules/huggable.git"
 }
