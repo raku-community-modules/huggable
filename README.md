@@ -1,32 +1,32 @@
 # huggable
 
-Perl 6 IRC bot that lurks in irc.freenode.net/perl6
+IRC bot that lurks in irc.freenode.net/raku
 
 # INSTALLATION
 
-    git clone https://github.com/zoffixznet/huggable.git
+    git clone https://github.com/raku-community-modules/huggable.git
     cd huggable
     zef --depsonly install .
 
 # RUNNING
 
-    perl6 bin/huggable.p6
+    raku bin/huggable.p6
 
 ----
 
 # KNOWN RUNNING INSTANCES
 
-User `huggable` on `irc.freenode.net`; sits in channel `#perl6`
+User `huggable` on `irc.freenode.net`; sits in channel `#raku`
 
 # REPOSITORY
 
 Fork this bot on GitHub:
-https://github.com/zoffixznet/huggable
+https://github.com/raku-community-modules/huggable
 
 # BUGS
 
 To report bugs or request features, please use
-https://github.com/zoffixznet/huggable/issues
+https://github.com/raku-community-modules/huggable/issues
 
 # AUTHOR
 
